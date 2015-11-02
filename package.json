@@ -1,0 +1,36 @@
+{
+  "name": "xbox-parrot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/nw.html",
+  "dependencies": {
+    "ar-drone": "^0.3.3",
+    "dronestream": "^1.1.1",
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7",
+    "xbox-parrot": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "window": {
+    "title": "Control an AR.Parrot drone with a console controller",
+    "toolbar": true,
+    "position": "center",
+    "resizable": true,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
